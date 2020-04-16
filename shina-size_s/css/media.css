@@ -1,0 +1,35 @@
+@media all and (max-width: 1200px) {
+	.param-wrap, .img-side {
+		width: 100%;
+	}
+}
+@media all and (max-width: 1200px) and (min-width: 992px){
+	.img-wrap, .img-speed-wrap {
+		width: 50%;
+	}
+}
+@media all and (max-width: 992px) {
+	.param-wrap,
+	.img-side,
+	.img-wrap,
+	.img-speed-wrap {
+		width: 100%;
+	}
+}
+@media all and (max-width: 600px) and (min-width: 320px) {
+	button#calc_button {
+		width: auto;
+	}
+	.img-old > div, .img-new > div {
+		margin-bottom: 50px;
+	}
+	.rubber_front {
+		margin: auto;
+	}
+	button#up, button#down, #device-value, #real-value {
+		font-size: 1.5rem;
+	}
+	#device-value {
+		width: 50px;
+	}
+}
